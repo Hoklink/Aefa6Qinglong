@@ -1,6 +1,8 @@
 # QinglongScript
 
-搬运自aefa6的青龙脚本仓库：https://github.com/aefa6/QinglongScript
+搬运自aefa6的青龙脚本仓库：
+
+https://github.com/aefa6/QinglongScript
 
 本仓库仅对原来的脚本进行一些细微调整，更符合自己的使用习惯 ~！
 
