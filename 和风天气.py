@@ -64,7 +64,7 @@ content = f"""
 if weatherw:
     content += "\n" + weatherw[0]['text']
 else:
-    content = ""
+    content += ""
 
 title = weatherl + '天气预报'
 content += '\n\n【天气数据更新时间】' + weather['obsTime'].replace('T', ' ').replace('+08:00','') + '\n'
