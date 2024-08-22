@@ -2,7 +2,7 @@
 # 必须的环境变量有两个：
 # 1.当前的位置：HFTQ_LOCAL
 # 2.和风天气后台创建项目，获取的key：HFTQ_KEY
-# 更多不尽事宜，情各位参考和风天气开发文档 ……
+# 更多不尽事宜，请各位参考和风天气开发文档 ……
 
 '''
 File: 和风天气.py
@@ -66,7 +66,7 @@ if weatherw:
 else:
     content = ""
 
-title = '【' + weatherl + '天气预报】'
+title = weatherl + '天气预报'
 content += '\n\n【天气数据更新时间】' + weather['obsTime'].replace('T', ' ').replace('+08:00','') + '\n'
 
 notify.send(title, content)
