@@ -9,6 +9,14 @@ import json
 import notify
 import requests
 
+'''
+File: 每天60s读世界.py
+Author: Sten
+Date: 2024/08/22 11:55
+cron: 0 58 8 * * *
+new Env('每天60s读世界');
+'''
+
 url = 'https://60s.viki.moe/60s?v2=1?encoding=text'
 resp = requests.get(url)
 if resp.status_code != 200:
